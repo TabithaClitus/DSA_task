@@ -1,0 +1,5 @@
+arr = list(map(int, input("Enter array elements: ").split()))
+total = sum(arr)
+average = total / len(arr)
+print("Sum:", total)
+print("Average:", average)
